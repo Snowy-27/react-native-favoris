@@ -1,6 +1,6 @@
 // Navigation/Navigation.js
 
-import { createStackNavigator } from 'react-navigation-stack'
+import { createStackNavigator  } from 'react-navigation-stack'
 import { createAppContainer } from 'react-navigation'
 import Search from '../Components/search'
 import FilmDetail from '../Components/FilmDetail'
