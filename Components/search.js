@@ -72,6 +72,7 @@ class Search extends React.Component {
           onSubmitEditing={() => this._searchFilms()}
         />
         <Button title='Rechercher' onPress={() => this._searchFilms()}/>
+        <Button on />
         <FlatList
           data={this.state.films}
           extraData={this.props.favoritesFilm}
@@ -128,4 +129,4 @@ const mapStateToProps = state => {
   }
 }
 
-export default connect(mapStateToProps)(Search) 
+export default connect(mapStateToProps)(Search)
